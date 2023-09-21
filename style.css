@@ -1,0 +1,19 @@
+body {
+    background-color: #f0efeb;
+}
+
+.header {
+    background-color: #e8d1c5;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    background-color: blue;
+}
+
+.logo {
+    align-items: flex-start;
+    justify-content: left;
+}
