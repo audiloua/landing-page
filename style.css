@@ -1,5 +1,5 @@
 body {
-    background-color: #f0efeb;
+    background-color: #fffbff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,18 +21,20 @@ h1 {
     margin: 0;
 }
 
+
 button {
-    background-color: #79addc;
+    background-color: #79addc; 
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
     text-align: center;
     margin-top: 10px;
     padding: 5px 20px;
 }
 
 .header {
-    background-color: #e8d1c5;
+    background-color: #d3ab9e;
     color: white;
     display: flex;
     flex-direction: column;
@@ -65,7 +67,7 @@ button {
     height: 150px;
     width: 700px;
     text-align: center;  
-    line-height: 130px;
+    line-height: 150px;
     margin-left: 10px;
 }
 
@@ -113,3 +115,67 @@ button {
     margin-top: 5px;   
 }
 
+.quote {
+    background-color: #ebd8d0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 50px;
+    padding: 80px 150px;
+}
+
+.testimonial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.author {
+    font-weight: bold;
+
+}
+
+.call-to-action {
+    background-color: #79addc;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+}
+
+.bold-cta {
+    font-weight: bold;
+    color: white;
+}
+
+.call-to-action-container p {
+    color: white;
+}
+
+.call-to-action button {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #d3ab9e;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    color: white;
+    font-size: 10px;
+}
